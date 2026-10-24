@@ -1,6 +1,12 @@
 # SmpMaster for PocketMine-MP API 5
 
-**Version:** 0.4.4  
+<p align="center">
+  <img src="plugin_1.png" width="48%">
+  <img src="plugin_2.png" width="48%">
+</p>
+
+
+**Version:** 0.4.6 
 **Namespace:** `LagMaster\\SmpMaster`  
 **Data folder:** `plugin_data/SmpMaster/`
 
