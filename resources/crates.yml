@@ -1,0 +1,41 @@
+crates:
+  common:
+    name: "§aCommon Crate"
+    rewards:
+      - type: money
+        amount: 250
+        chance: 50
+        name: "§a$250"
+      - type: shards
+        amount: 5
+        chance: 25
+        name: "§d5 Shards"
+      - type: item
+        id: diamond
+        amount: 3
+        chance: 15
+        name: "§b3 Diamonds"
+      - type: money
+        amount: 2000
+        chance: 10
+        name: "§6Grand Prize $2,000"
+  rare:
+    name: "§bRare Crate"
+    rewards:
+      - type: money
+        amount: 2500
+        chance: 45
+        name: "§a$2,500"
+      - type: shards
+        amount: 25
+        chance: 30
+        name: "§d25 Shards"
+      - type: item
+        id: diamond
+        amount: 16
+        chance: 20
+        name: "§b16 Diamonds"
+      - type: money
+        amount: 15000
+        chance: 5
+        name: "§6Grand Prize $15,000"

@@ -1,0 +1,55 @@
+config-version: 2
+settings:
+  prefix: "§8[§6SmpMaster§8] §r"
+  starting-money: 250.0
+  starting-shards: 0
+  decimal-places: 2
+  scoreboard-enabled: true
+  scoreboard-refresh-ticks: 40
+  shop:
+    purchase-quantities: [1, 16, 64]
+  homes:
+    max-per-player: 3
+  rtp:
+    enabled: true
+    radius: 5000
+    cooldown-seconds: 30
+    max-attempts: 20
+  sell:
+    default-multiplier: 1.0
+    show-held-price: true
+    multiplier-thresholds:
+      0: 1.0
+      10000: 1.05
+      50000: 1.10
+      200000: 1.20
+  tpa:
+    request-expiry-seconds: 60
+    cooldown-seconds: 5
+  teleport:
+    # Seconds the player must stand still before /rtp, /home, /warp and accepted /tpa teleports.
+    countdown-seconds: 5
+  drops:
+    auto-clear: true
+    interval-seconds: 120
+    announce: true
+features:
+  economy: true
+  shop: true
+  sell: true
+  auction-house: true
+  scoreboard: true
+  shards: true
+  bounty: true
+  stats: true
+  homes: true
+  warps: true
+  rtp: true
+  teams: true
+  crates: true
+  drop-cleaner: true
+messages:
+  no-permission: "§cYou do not have permission."
+  player-only: "§cThis command can only be used in-game."
+  player-not-found: "§cPlayer not found or not online."
+  invalid-amount: "§cEnter a valid positive amount."

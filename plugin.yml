@@ -1,0 +1,84 @@
+name: SmpMaster
+main: LagMaster\SmpMaster\Main
+version: 0.4.6
+api: 5.0.0
+author: LagMaster
+description: Economy, shop, auction house, sell system, scoreboard and survival utilities for PocketMine-MP API 5
+website: https://github.com/LagMaster/SmpMaster
+load: POSTWORLD
+permissions:
+  smpmaster.command.use:
+    default: true
+  smpmaster.command.shop:
+    default: true
+  smpmaster.command.sell:
+    default: true
+  smpmaster.command.sellhand:
+    default: true
+  smpmaster.command.sellall:
+    default: true
+  smpmaster.command.sellhistory:
+    default: true
+  smpmaster.command.sellmulti:
+    default: true
+  smpmaster.command.ah:
+    default: true
+  smpmaster.command.worth:
+    default: true
+  smpmaster.command.money:
+    default: true
+  smpmaster.command.pay:
+    default: true
+  smpmaster.command.shards:
+    default: true
+  smpmaster.command.shardpay:
+    default: true
+  smpmaster.command.bounty:
+    default: true
+  smpmaster.command.stats:
+    default: true
+  smpmaster.command.leaderboard:
+    default: true
+  smpmaster.command.sethome:
+    default: true
+  smpmaster.command.home:
+    default: true
+  smpmaster.command.delhome:
+    default: true
+  smpmaster.command.warp:
+    default: true
+  smpmaster.command.spawn:
+    default: true
+  smpmaster.command.rtp:
+    default: true
+  smpmaster.command.tpa:
+    default: true
+  smpmaster.command.team:
+    default: true
+  smpmaster.command.crates:
+    default: true
+  smpmaster.command.report:
+    default: true
+  smpmaster.command.helpop:
+    default: true
+  smpmaster.command.smp:
+    default: true
+  smpmaster.admin.money:
+    default: op
+  smpmaster.admin.shards:
+    default: op
+  smpmaster.admin.warp:
+    default: op
+  smpmaster.admin.spawn:
+    default: op
+  smpmaster.admin.crates:
+    default: op
+  smpmaster.admin.reload:
+    default: op
+  smpmaster.staff.alerts:
+    default: op
+  smpmaster.rank.admin:
+    default: op
+
+  smpmaster.admin.cleardrops:
+    default: op

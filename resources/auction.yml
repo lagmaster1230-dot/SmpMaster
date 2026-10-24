@@ -1,0 +1,19 @@
+# Auction-house settings. Changes apply after /smp reload.
+enabled: true
+listing-limit-per-player: 10
+listing-lifetime-hours: 168
+minimum-price: 1
+maximum-price: 1000000000000
+items-per-page: 18
+# Optional item names that may not be listed. Use the vanilla display name in lowercase.
+blocked-item-names:
+  - air
+  - command block
+  - repeating command block
+  - chain command block
+  - structure block
+  - jigsaw
+  - barrier
+  - light block
+  - structure void
+  - bedrock

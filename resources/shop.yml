@@ -1,0 +1,71 @@
+title: "§l§6SmpMaster §8| §fShop"
+categories:
+  blocks:
+    name: "§6Blocks"
+    items:
+      - id: stone
+        name: "§fStone"
+        price: 4
+      - id: cobblestone
+        name: "§7Cobblestone"
+        price: 3
+      - id: obsidian
+        name: "§5Obsidian"
+        price: 80
+      - id: glass
+        name: "§bGlass"
+        price: 8
+      - id: oak_log
+        name: "§6Oak Log"
+        price: 12
+  ores:
+    name: "§bOres & Gems"
+    items:
+      - id: coal
+        name: "§8Coal"
+        price: 15
+      - id: iron_ingot
+        name: "§fIron Ingot"
+        price: 35
+      - id: gold_ingot
+        name: "§6Gold Ingot"
+        price: 60
+      - id: diamond
+        name: "§bDiamond"
+        price: 500
+      - id: emerald
+        name: "§aEmerald"
+        price: 350
+      - id: redstone
+        name: "§cRedstone"
+        price: 20
+  farming:
+    name: "§aFarming"
+    items:
+      - id: wheat
+        name: "§eWheat"
+        price: 8
+      - id: carrot
+        name: "§6Carrot"
+        price: 7
+      - id: potato
+        name: "§ePotato"
+        price: 7
+      - id: sugar_cane
+        name: "§aSugar Cane"
+        price: 10
+      - id: cactus
+        name: "§2Cactus"
+        price: 9
+  utility:
+    name: "§dUtility"
+    items:
+      - id: ender_pearl
+        name: "§dEnder Pearl"
+        price: 120
+      - id: golden_apple
+        name: "§6Golden Apple"
+        price: 250
+      - id: experience_bottle
+        name: "§aBottle o' Enchanting"
+        price: 80

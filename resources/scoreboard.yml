@@ -1,0 +1,18 @@
+title: "§l§6SmpMaster"
+refresh-ticks: 40
+lines:
+  - "§8----------------"
+  - "§fPlayer: %player%"
+  - "§7Rank: %rank%"
+  - "§8----------------"
+  - "§6Money: $%money%"
+  - "§dShards: %shards%"
+  - "§aKills: %kills%"
+  - "§cDeaths: %deaths%"
+  - "§eBounty: $%bounty%"
+  - "§bTeam: %team%"
+  - "§aPing: %ping%ms"
+  - "§7Online: %online%"
+  - "§8----------------"
+  - "§6Shop • Sell • Survive"
+lines-version: 2
